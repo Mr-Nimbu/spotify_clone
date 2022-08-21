@@ -1,0 +1,125 @@
+body{
+    background-color: bisque;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: fantasy; 
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+   
+}
+.brand img{
+    height: 50px;
+    width: 50px;
+    margin: 5px 7px;
+    padding: 2px 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.container{
+    height: 63vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 32px;
+    background-image: url('bg.jpg');
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color:rgb(43, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.songsinfo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 10vw;
+}
+
+.songsinfo img{
+    margin: 4px;
+    border-radius: 23px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#myprogressbar{
+    width: 80vw;
+}
+
+.icons{
+      margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color:rosybrown;
+}
+
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: lightblue;
+    color: black;
+    margin: 12px 0;
+    border-radius: 23px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.songitem img{
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+
+.songitemcontainer{
+    margin-top: 34px;
+}
+
+.timestamp{
+    margin: 0px 11px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+#song2{
+    width: 35px;
+}

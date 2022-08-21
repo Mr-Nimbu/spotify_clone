@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Sargam">Sargam</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songslist">
+            <h1>Best of NCS : No Copyright Songs </h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="song1.jpg" alt="1">
+                    <span> suno na sangemarmar </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="0" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song2.png" alt="1" id="song2">
+                    <span> jashan-e-ishqa </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="1" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song3.jpg" alt="1">
+                    <span> baby-doll </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="2" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song4.jpg" alt="1">
+                    <span> tune-maari-entriyaa </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="3" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song5.jpg" alt="1">
+                    <span> mitti-di-khusboo </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="4" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song6.jpg" alt="1">
+                    <span> alcoholic </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="5" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song7.jpg" alt="1">
+                    <span> kamil-kamli </span>
+                    <span class="songlistplay"><span class="timestamp">5:20<i id="6" class="fas songitemplay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0"  value="0" max-value="100">
+        <div class="icons">
+            <!-- font awesome -->
+            <i class="fas fa-3x fa-fast-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-fast-forward" id="next"></i>
+        </div>
+        <div class="songsinfo">
+            <img src="giphy.webp" width="42px" id="gif"><span id="mastersongname">suno na sangemarmar</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
